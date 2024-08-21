@@ -58,7 +58,7 @@ export default function Modal({ show, pokemonDetails, onClose }) {
         <div className="modalDetails">
           <div className="modalName">{name}</div>
           <img src={image} alt={name} />
-          <div>Type</div>
+          <div className='pokemonTypeHeader'>Type</div>
           <div className="modalTypes">
             {types.map((type) => (
               <div
